@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrdersCard should render correctly 1`] = `
+<div>
+  <div
+    class="flex justify-between items-center mb-3 border border-black rounded-lg p-4 w-80"
+  >
+    <div
+      class="flex justify-between w-full"
+    >
+      <p
+        class="flex flex-col"
+      >
+        <span
+          class="font-light"
+        >
+          01.02.23
+        </span>
+        <span
+          class="font-light"
+        >
+          3
+           articles
+        </span>
+      </p>
+      <p
+        class="flex items-center gap-2"
+      >
+        <span
+          class="font-medium text-2xl"
+        >
+          $
+          100
+        </span>
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 text-black cursor-pointer"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </p>
+    </div>
+  </div>
+</div>
+`;
